@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>E:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\OpenGl\glm-0.9.7.1\glm;E:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\OpenGl\glfw-3.1.2\include;E:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\OpenGl\glew-1.13.0\include;E:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\OpenGl\glad\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\OpenGl\glad\lib;E:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\OpenGl\glfw-3.1.2\lib;E:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\OpenGl\glew-1.13.0\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>E:\Program Files %28x86%29\Microsoft Visual Studio\2017\Community\VC\OpenGl\glad\src;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glfw3.lib;glew32s.lib;glad.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
